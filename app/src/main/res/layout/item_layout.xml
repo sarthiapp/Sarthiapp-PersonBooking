@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+    android:background="@drawable/item_layout"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_layout"
+        android:padding="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_centerVertical="true"
+            android:id="@+id/img1"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#651FFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#E53935"
+            android:layout_toRightOf="@id/img1"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/age"
+            android:text="Age"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/img1"
+            android:layout_below="@id/name"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rating"
+            android:text="Rating"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/img1"
+            android:layout_below="@id/age"
+            android:layout_marginLeft="10dp"/>
+
+
+        <Button
+            android:id="@+id/btn_book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/rating"
+            android:layout_marginLeft="280dp"
+            android:background="@drawable/button_rounded"
+            android:text="book" />
+        <Button
+            android:id="@+id/rate_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_rounded"
+            android:layout_below="@+id/rating"
+            android:layout_marginLeft="120dp"
+
+            android:text="rate" />
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

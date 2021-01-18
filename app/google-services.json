@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "43140745100",
+    "firebase_url": "https://sarthiperson-7b255-default-rtdb.firebaseio.com",
+    "project_id": "sarthiperson-7b255",
+    "storage_bucket": "sarthiperson-7b255.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43140745100:android:70c8cec3a4f1d944def8a9",
+        "android_client_info": {
+          "package_name": "com.example.sarthiperson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43140745100-21eag1vo1s3t7uff0aut9cmb3p8i9cjt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sarthiperson",
+            "certificate_hash": "47b3ddc7e172dcd3fe80e7911bf44822206be712"
+          }
+        },
+        {
+          "client_id": "43140745100-gic0f6vmo44haffo709etimjmaegbtae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvEB1HqTAZzfykBzIDvTOKBq2bBt7QgG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43140745100-gic0f6vmo44haffo709etimjmaegbtae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
